@@ -8,8 +8,16 @@
 </head>
   <body>
     <form id="form_saludo" action="submit">
-      <center><input type="text" id="input_Nombre" placeholder="Ingresa tu nombre">
-      <button id="boton_nombre">Saludar</button></center>
+      <center>
+        <br>
+        <input type="text" id="input_Nombre" placeholder="Ingresa tu nombre">
+        <button id="boton_nombre">Saludar</button>&nbsp;&nbsp;&nbsp;
+        <label>Selecciona tu género:</label> 
+        <select id="input_Genero">
+          <option value="varon">Varón</option>
+          <option value="mujer">Mujer</option>
+        </select>
+      </center>
     </form>
     <p id="mensajes_Bot">Hola</p>
     <script src="./src/index.js"></script>
